@@ -21,6 +21,11 @@ public class Application {
 		
 		UserRepository repository =(UserRepository) ctx.getBean(UserRepository.class);
 		
+
+                int a=10;
+                int b=20;
+
+
 //		UserEntity findUserByEmail = repository.findUserByEmail("sayali97@gmail.com");
 //        System.out.println(findUserByEmail);
         
