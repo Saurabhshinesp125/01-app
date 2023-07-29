@@ -14,6 +14,7 @@ import in.saurabh.entity.UserEntity;
 import in.saurabh.repository.UserRepository;
 
 @SpringBootApplication
+@RestController
 public class Application {
 
 	public static void main(String[] args) {
